@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2,h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+}
+
+.form-left-section{
+    background-color: #a4a5e5;
+    width: 60%;
+    padding: 65px 0;
+    
+    
+}
+.form-left-wrapper{
+    padding-left: 20%;
+    position: relative;
+    
+}
+h2{
+    color: #e9d4d4;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 0;
+    bottom: 48%;
+}
+form .name{
+    padding-bottom: 28px;
+}
+input{
+    background: beige;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 40%;
+    
+    
+    
+}
+textarea{
+    background: beige;
+    border: none;
+    padding: 12px 20px;
+    width: 88.8%;
+    height: 100px;
+    border-radius: 5px;
+}
+.primary-btn{
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    font-weight: 600;
+    cursor:pointer ;
+
+}
+button{
+    background: beige;
+    color: hwb(33 60% 7%);
+    bottom: 60%;
+
+}
+.primary-btn:hover{
+    color: hsl(264, 87%, 35%);
+    background:transparent ;
+}
+
+
+
+.form-right-section{
+    width: 40%;
+    background: rgb(229, 234, 232);
+    padding: 20px 0;
+    padding-left: 20px;
+    
+
+}
+h4{
+    font-size: 28px;
+    color: hsl(239, 89%, 67%);
+    
+}
+.feature-list ul{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.feature-list ul li{
+    padding: 8px;
+   
+
+}
+
+    
+/* Start Responsive Css Code  */
+
+
+/********************************************************/
+/* over devices **********************************/
+/***/ 
+@media only screen and (min-width: 1600px){
+
+
+}
+
+/********************************************************/
+/* xxl devices **********************************/
+/***/   
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+
+}
+
+/********************************************************/
+/* xl devices **********************************/
+/***/ 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+ 
+
+}
+
+
+/********************************************************/
+/* lg devices **********************************/
+/***/  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+
+
+}
+  
+/********************************************************/
+/* md devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* .container{
+        display: block;
+    }
+     .form-left-section{
+        width: 100%;
+        padding: 50px 0;
+     }  */
+
+}
+  
+
+/********************************************************/
+/* xs devices **********************************/
+/********************************************************/
+@media (max-width: 767px){
+
+    /* .container{
+        display: block;
+    }
+     .form-left-section{
+        width: 100%;
+        padding: 50px 0;
+     } */
+
+    
+
+
+}
+
+/********************************************************/
+/* sm devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .container{
+        display: block;
+    }
+     .form-left-section{
+        width: 100%;
+        padding: 50px 0;
+     } 
+     form .name{
+        padding-bottom: 28px;
+        display: flex;
+     }
+    
+}
+ 
+ 
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+   
